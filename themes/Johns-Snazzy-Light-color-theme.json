@@ -1,5 +1,5 @@
 {
-  "name": "Snazzy Light",
+  "name": "John's Snazzy Light",
   "type": "light",
   "colors": {
     // General
@@ -931,7 +931,8 @@
         "punctuation.section.embedded.end.php",
       ],
       "settings": {
-        "foreground": "#75798F",
+        "foreground": "#b73be6",
+        "fontStyle": "bold"
       },
     },
     {
@@ -963,6 +964,14 @@
       "settings": {
         "foreground": "#F767BB",
       },
+    },
+    {
+      "name": "PHP: Variables",
+      "scope": ["variable.other.php"],
+      "settings": {
+        "foreground": "#f26623",
+        "fontStyle": "bold"
+      }
     },
     {
       "name": "PHP: 'function' keyword before reference-returning method",

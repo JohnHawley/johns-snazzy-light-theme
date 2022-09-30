@@ -1,18 +1,19 @@
 {
-  "name": "snazzy-light",
-  "displayName": "Snazzy Light",
-  "publisher": "loilo",
+  "name": "johns-snazzy-light-theme",
+  "displayName": "John's Snazzy Light Theme",
+  "publisher": "JohnHawley",
   "description": "A vivid light color theme determined to be clear and distinct under bright ambient light",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "engines": {
     "vscode": "^1.28.0"
   },
   "scripts": {
-    "deploy": "./deploy-checks && git push && git push --tags && vsce publish"
+    "deploy": "./deploy-checks && git push && git push --tags && vsce publish",
+    "build": "vsce package"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/loilo/vscode-snazzy-light.git"
+    "url": "https://github.com/JohnHawley/johns-snazzy-light-theme.git"
   },
   "icon": "favicon.png",
   "galleryBanner": {
@@ -25,9 +26,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Snazzy Light",
+        "label": "John's Snazzy Light Theme",
         "uiTheme": "vs",
-        "path": "./themes/Snazzy-Light-color-theme.json"
+        "path": "./themes/Johns-Snazzy-Light-color-theme.json"
       }
     ]
   }
